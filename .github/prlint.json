@@ -2,8 +2,7 @@
   "title": [
     {
       "pattern": "^((Feature|Fix|Build|Perf|Refactor|Test|Docs)[/][0-9]+ : [a-zA-Z]{1,50})",
-      "message": " There is something wrong with your title, it needs to be matched with this regex ^((Feature|Fix|Build|Perf|Refactor|Test|Docs)[/][0-9]+ : [a-zA-Z]{1,50}) "
-
+      "message": " There is something wrong with your title, it needs to be matched with this regex ^((Feature|Fix|Build|Perf|Refactor|Test|Docs)[/][0-9]+ : [a-zA-Z]{1,50}) Exemple Feature/1457 : commit-msg"
     }
   ],
   "labels.0.name": [

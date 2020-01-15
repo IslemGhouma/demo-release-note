@@ -2,7 +2,8 @@
   "title": [
     {
       "pattern": "^((Feature|Fix|Build|Perf|Refactor|Test|Docs)[/][0-9]+ : [a-zA-Z]{1,50})",
-      "message": "Your title needs to be prefixed with a topic"
+      "message": " There is something wrong with your title, it needs to be matched with this regex ^((Feature|Fix|Build|Perf|Refactor|Test|Docs)[/][0-9]+ : [a-zA-Z]{1,50}) "
+
     }
   ],
   "labels.0.name": [

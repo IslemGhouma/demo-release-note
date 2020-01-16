@@ -8,14 +8,8 @@
   "labels.0.name": [
     {
       "pattern": "Feature|Fix|Build|Perf|Refactor|Test|Docs",
-      "message": "Please add a label"
-    }
-  ],
-   "milestone.title": [
-    {
-      "pattern": "22222",
-      "message": "Please add a milestone"
+      "message": "Please add one of this labels (Feature|Fix|Build|Perf|Refactor|Test|Docs)"
     }
   ]
-
+   
 }

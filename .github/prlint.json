@@ -13,7 +13,7 @@
   ],
    "milestone.title": [
     {
-      "pattern": ".+",
+      "pattern": "22222",
       "message": "Please add a milestone"
     }
   ]

@@ -10,6 +10,12 @@
       "pattern": "Feature|Fix|Build|Perf|Refactor|Test|Docs",
       "message": "Please add a label"
     }
-  ]
+  ],
+   "milestone.title": [
+    {
+      "pattern": ".+",
+      "message": "Please add a milestone"
+    }
+  ],
 
 }

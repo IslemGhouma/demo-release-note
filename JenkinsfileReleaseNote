@@ -1,0 +1,24 @@
+pipeline {
+  agent any
+  options {
+    buildDiscarder(logRotator(numToKeepStr: '10'))
+    timestamps()
+    timeout(time: 60, unit: 'MINUTES')
+    parallelsAlwaysFailFast()
+  }
+  stages {
+    stage ("generate release-note") {
+      steps {
+        script {
+          sh """
+		   wget http://172.19.25.54:8081/nexus/content/repositories/thirdparty/github-release-notes-generator.jar .
+           java -jar github-release-notes-generator.jar --releasenotes.github.username=IslemGhouma --releasenotes.github.password=Iw28Gk54** --releasenotes.github.organization=IslemGhouma --releasenotes.github.repository=demo-release-note  1.0 release-note.md
+		   git commit -am "add release-note"
+		   git push 
+          """
+        }
+      }
+  
+    }
+  }
+}

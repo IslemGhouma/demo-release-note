@@ -11,9 +11,9 @@
       "message": "Please add a label"
     }
   ],
-   "milestone.title": [
+   "milestone.number": [
     {
-      "pattern": "22222",
+      "pattern": "1",
       "message": "Please add a milestone"
     }
   ]

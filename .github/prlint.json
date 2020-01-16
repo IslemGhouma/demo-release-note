@@ -11,9 +11,9 @@
       "message": "Please add a label"
     }
   ],
-   "milestone.number": [
+   "milestone.state": [
     {
-      "pattern": "1",
+      "pattern": "open",
       "message": "Please add a milestone"
     }
   ]
